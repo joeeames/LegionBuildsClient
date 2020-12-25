@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Legion Builds!';
+  builds = [
+    {name: "Joe's build 1"},
+    {name: "Joe's build 2"},
+    {name: "Joe's build 3"},
+  ]
 }
